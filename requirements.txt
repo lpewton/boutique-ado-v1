@@ -7,7 +7,7 @@ dbus-python==1.2.18
 defusedxml==0.7.1
 distro==1.7.0
 Django==3.2.19
-django-allauth==0.41.0
+django-allauth==0.54.0
 httplib2==0.20.2
 idna==3.4
 importlib-metadata==4.6.4
