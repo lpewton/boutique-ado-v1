@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-#b#0okdb@ma_v3k9s=z_uj*jloyyy2*u6$#ro3b!=to5+$6ydv
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["8007-lpewton-boutique-ado-v1-2yw5ecprsd.us2.codeanyapp.com"]
+ALLOWED_HOSTS = ["8000-lpewton-boutique-ado-v1-2yw5ecprsd.us2.codeanyapp.com"]
 
 
 # Application definition
