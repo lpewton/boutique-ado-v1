@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'checkout',
+    'crispy_bootstrap4',
 
     #Others
     'crispy_forms',
@@ -174,6 +175,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 
-
+# Stripe
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
+STRIPE_CURRENCY = 'usd'
+STRIPE_PUBLIC_KEY = 'pk_test_51NBnQjAs8zNrdz8SicMPdmQpAUJaGqrWsYOjqq2WVkzdQ5Pih66T9QK1sHV6w5pGzV2srfT3X2HGEm3nJEXBpwGd00khFNaeS9'
+STRIPE_SECRET_KEY = 'sk_test_51NBnQjAs8zNrdz8SkI9IDKycERWNuRsDUdSyfnAlOyh1sZfqwYfjBsZhO16vWCyPJZcprDrQbUWkAYoDVGmfXwWo00FfPTozKq'
