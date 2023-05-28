@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-#b#0okdb@ma_v3k9s=z_uj*jloyyy2*u6$#ro3b!=to5+$6ydv
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["lpewton-boutique-ado.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = ["lpewton-boutique-ado.herokuapp.com", "8000-lpewton-boutique-ado-v1-2yw5ecprsd.us2.codeanyapp.com"]
 
 
 # Application definition
@@ -124,7 +124,7 @@ WSGI_APPLICATION = 'boutique_ado.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-Dif 'DATABASE_URL' in os.environ:
+if 'DATABASE_URL' in os.environ:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
